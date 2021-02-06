@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/dida"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".LAQChapterActivity">
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:background="@drawable/button1"
+        android:layout_gravity="center_horizontal"
+        android:text="Long Qn and Ans"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="Prose"/>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="1. Leelas Freind"/>
+                        <ImageView
+                            android:id="@+id/kar1p"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="2. Karma"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar2p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="3. Jimmy Valentine"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar3p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="4. Noble Lecture"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar4p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="5. The Place of AIE"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar5p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="Poetry"/>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="1. Upon Wm. Bridge"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/kar6p"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="2. Meeing at Night"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar7p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="3. The Sick Rose"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar8p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="4. Brotherhood"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar9p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="5. Daybreak"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar10p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="Writing Skills"/>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="1. Story"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar11p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="2. Paragraph"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar12p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="3. Leaflet"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar13p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginBottom="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="4. Advertisement"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar14p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/holo_blue_light"
+                    android:textSize="25sp"
+                    android:layout_margin="10dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:padding="10dp"
+                    android:text="Rapid Readers"/>
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="1. Comedy of Errors"/>
+                        <ImageView
+                            android:id="@+id/kar15p"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="2. As you like it"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar16p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    app:cardCornerRadius="15dp"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="3. Twelth Night"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar17p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="4. Othello"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar18p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="10dp"
+                    app:cardCornerRadius="15dp"
+                    android:padding="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content">
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:textSize="20sp"
+                            android:textColor="@android:color/black"
+                            android:layout_centerVertical="true"
+                            android:layout_alignParentStart="true"
+                            android:text="5. Macbeth"/>
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/kar19p"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginEnd="20dp"/>
+
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

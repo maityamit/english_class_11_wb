@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dida"
+    tools:context=".ModelPaper">
+
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Model Question Paper"
+                    android:fontFamily="@font/carter_one"
+                    android:textSize="22sp"
+                    android:textColor="@color/amitb"
+                    android:padding="10dp"
+                    android:layout_gravity="center_horizontal"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/button1"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20dp"
+                        android:text="Paper 01"/>
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:background="@drawable/button1"
+                        android:layout_weight="1"
+                        android:layout_margin="10dp"
+                        android:textStyle="bold"
+                        android:textAllCaps="false"
+                        android:layout_marginBottom="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:textSize="20dp"
+                        android:text="Paper 01"/>
+
+
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button1"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    android:layout_marginBottom="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="20dp"
+                    android:text="Paper 01"/>
+
+
+
+
+                <TextView
+                    android:id="@+id/hellobanglo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15sp"
+                    android:layout_marginEnd="15dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="25dp"
+                    android:text="Correct"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/latro"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:text="F.A.Q. s"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_height="wrap_content">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="How many Practice paper I will get?"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:text="05 pices"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Is this paper Free?"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:text="Cheak The above link."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Is this Relevant?"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:text="Yes , Absolutly"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="Who create this Page?"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:text="Our Best Faculty Members."/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/headings"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:text="I have a Question..."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:text="Go to Contact Us Page"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@android:color/black"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
